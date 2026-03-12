@@ -238,4 +238,33 @@ padding:12px;
 border-radius:6px;
 border:1px solid #ccc;
 font-size:16px;
+
+}
+.request-form{
+display:flex;
+flex-direction:column;
+width:350px;
+margin:30px auto;
+gap:15px;
+}
+
+.request-form input,
+.request-form select{
+padding:10px;
+font-size:16px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.request-form button{
+padding:12px;
+background:#0a1a33;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+.request-form button:hover{
+background:#142850;
 }
